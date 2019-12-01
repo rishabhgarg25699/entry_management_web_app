@@ -64,7 +64,8 @@ isemployee      boolean                       not null
 </pre>
 <pre>
 
-For easy maintainence for the application 6 error codes are used....
+# For easy maintainence for the application 6 error codes are used....
+
 0 :- Internal Server Error ..
      Error while querying the database.
      Error while connecting to database.
@@ -80,15 +81,13 @@ For easy maintainence for the application 6 error codes are used....
 
 5 :- Employee is absent.
 </pre>
-<pre>
-Scope for future development :-
+
+# Scope for future development :-
 
 1. Implementing Trie Data Structure to show the details of all employee in /visitor/entry page.
 2. Adding Adhar card feature to fetch the details of visitor so to increase the visitor's comfort.
 3. Use of RFID Card at gates to make system more reliable and accessible/
 
-</pre>
-
-
-    Thankyou Innovacer for giving me such a good project . I have learned a lot while completing it. 
-    Some things I learned are  Postgresql,es6 async await features,database management and little bit of jquery,nodejs,express.
+Thankyou Innovacer for giving me such a good project . I have learned a lot while completing it. 
+Some things I learned are  Postgresql,es6 async await features,database management and little bit of 
+jquery,nodejs,express.
