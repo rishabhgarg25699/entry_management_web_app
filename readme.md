@@ -1,7 +1,7 @@
 # Entry Management Web Application
 
 
-A simple and beautiful web application for Entry Management in offices . It uses Postgresql Database in Backend , which is The World's Most Advanced Open Source Relational Database, along with nodejs and express.
+A simple and beautiful web application for Entry Management in offices . It uses Postgresql Database in Backend , which is The World's Most Advanced Open Source Relational Database, along with nodejs and express. At the back end, once the user enters the information in the form, the backend should store all of the information with time stamp of the entry.
 
 Database Contains 4 Tables :-
 
