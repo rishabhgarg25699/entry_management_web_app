@@ -1,4 +1,4 @@
-                    Entry Management Web Application
+## Entry Management Web Application
 
 
 A simple and beautiful web application for Entry Management in offices . It uses Postgresql Database in Backend , which is The World's Most Advanced Open Source Relational Database, along with nodejs and express.
@@ -6,7 +6,8 @@ A simple and beautiful web application for Entry Management in offices . It uses
 Database Contains 4 Tables :-
 
                         
-                    Table Name : public.history
+# Table Name : public.history
+
 <pre>                    
 Column Name     Type                             Constraints
 id              bigint                        not null primary key
@@ -18,7 +19,8 @@ exit_gate       integer
 isemployee      boolean                       not null  
 </pre>
 
-                         Table Name : "public.emp"
+# Table Name : "public.emp"
+
 <pre>   
     Column            Type                        Constraints
  emp_id       integer                           not null  primary key
@@ -29,7 +31,7 @@ isemployee      boolean                       not null
  designation  character varying(30)             not null  
 </pre>
 
-                        Table Name : "public.visitor"                       
+# Table Name : "public.visitor"                       
 <pre>
     Column                Type                           Constraints 
  phone_no      character(10)                           not null primary key 
@@ -41,7 +43,7 @@ isemployee      boolean                       not null
  </pre>
 
 
-                         Table "public.visit_summary"
+# Table "public.visit_summary"
 <pre>
       Column                  Type                        Constraints
 
@@ -51,7 +53,7 @@ isemployee      boolean                       not null
  purpose_of_visit  character varying(100)                  not null  
 </pre>
 
-It contains 4 rest api end points :-
+# It contains 4 rest api end points :-
 <pre>
 /employee/entry :- For making entry of employee... It checks whether input is
  valid employee id and then check entry before exit error.
@@ -61,22 +63,30 @@ It contains 4 rest api end points :-
 /visitor/exit :- For making exit of visitor. It Thanking emails and sms Vistor  telling complete visitor summary.
 </pre>
 <pre>
+
 For easy maintainence for the application 6 error codes are used....
 0 :- Internal Server Error ..
      Error while querying the database.
      Error while connecting to database.
      Error while server fault.
-1 :- Successful 
+     
+1 :- Successful
+
 2 :- Entry Before Exit
+
 3 :- Exit Before Entry
+
 4 :- Employee Does not exist
+
 5 :- Employee is absent.
 </pre>
 <pre>
 Scope for future development :-
+
 1. Implementing Trie Data Structure to show the details of all employee in /visitor/entry page.
 2. Adding Adhar card feature to fetch the details of visitor so to increase the visitor's comfort.
 3. Use of RFID Card at gates to make system more reliable and accessible/
+
 </pre>
 
 
