@@ -80,12 +80,19 @@ isemployee      boolean                       not null
 
 5 :- Employee is absent.
 
+# Features In The Web App
+
+1. Trigger the email to the host informing him of the details of the visitor.
+2. Trigger the SMS to the host informing him of the details of the visitor.
+3. Visually Interative Responsive WebSite
+4. Time Stamping DataBase
+
 # Scope for future development :-
 
 1. Implementing Trie Data Structure to show the details of all employee in /visitor/entry page.
 2. Adding Adhar card feature to fetch the details of visitor so to increase the visitor's comfort.
 3. Use of RFID Card at gates to make system more reliable and accessible/
 
-Thankyou Innovacer for giving me such a good project . I have learned a lot while completing it. 
+Thank you Innovacer for giving me such a good project . I have learned a lot while completing it. 
 Some things I learned are  Postgresql,es6 async await features,database management and little bit of 
 jquery,nodejs,express.
