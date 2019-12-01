@@ -6,7 +6,7 @@ A simple and beautiful web application for Entry Management in offices . It uses
 Database Contains 4 Tables :-
 
                         
-## Table Name : public.history
+## 1. Table Name : public.history
 
 <pre>                    
 Column Name     Type                             Constraints
@@ -19,7 +19,7 @@ exit_gate       integer
 isemployee      boolean                       not null  
 </pre>
 
-## Table Name : "public.emp"
+## 2. Table Name : "public.emp"
 
 <pre>   
     Column            Type                        Constraints
@@ -31,7 +31,7 @@ isemployee      boolean                       not null
  designation  character varying(30)             not null  
 </pre>
 
-## Table Name : "public.visitor"                       
+## 3. Table Name : "public.visitor"                       
 <pre>
     Column                Type                           Constraints 
  phone_no      character(10)                           not null primary key 
@@ -43,7 +43,7 @@ isemployee      boolean                       not null
  </pre>
 
 
-## Table "public.visit_summary"
+## 4. Table "public.visit_summary"
 <pre>
       Column                  Type                        Constraints
 
