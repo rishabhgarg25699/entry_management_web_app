@@ -62,7 +62,6 @@ isemployee      boolean                       not null
 /visitor/entry :- For entry of visitor it also stores the visitor details for   future reference. It email and sms host telling all Visitor's Details.
 /visitor/exit :- For making exit of visitor. It Thanking emails and sms Vistor  telling complete visitor summary.
 </pre>
-<pre>
 
 # For easy maintainence for the application 6 error codes are used....
 
@@ -80,7 +79,6 @@ isemployee      boolean                       not null
 4 :- Employee Does not exist
 
 5 :- Employee is absent.
-</pre>
 
 # Scope for future development :-
 
