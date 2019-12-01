@@ -63,6 +63,9 @@ isemployee      boolean                       not null
 /visitor/exit :- For making exit of visitor. It Thanking emails and sms Vistor  telling complete visitor summary.
 </pre>
 
+## Front End
+![alt text](https://github.com/rishabhgarg25699/entry_management_web_app/blob/master/sample%20project%20photos/2019-12-01-181606_1366x768_scrot.png)
+
 ## For easy maintainence for the application 6 error codes are used....
 
 0 :- Internal Server Error ..
