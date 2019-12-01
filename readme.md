@@ -1,4 +1,4 @@
-## Entry Management Web Application
+# Entry Management Web Application
 
 
 A simple and beautiful web application for Entry Management in offices . It uses Postgresql Database in Backend , which is The World's Most Advanced Open Source Relational Database, along with nodejs and express.
@@ -6,7 +6,7 @@ A simple and beautiful web application for Entry Management in offices . It uses
 Database Contains 4 Tables :-
 
                         
-# Table Name : public.history
+## Table Name : public.history
 
 <pre>                    
 Column Name     Type                             Constraints
@@ -19,7 +19,7 @@ exit_gate       integer
 isemployee      boolean                       not null  
 </pre>
 
-# Table Name : "public.emp"
+## Table Name : "public.emp"
 
 <pre>   
     Column            Type                        Constraints
@@ -31,7 +31,7 @@ isemployee      boolean                       not null
  designation  character varying(30)             not null  
 </pre>
 
-# Table Name : "public.visitor"                       
+## Table Name : "public.visitor"                       
 <pre>
     Column                Type                           Constraints 
  phone_no      character(10)                           not null primary key 
@@ -43,7 +43,7 @@ isemployee      boolean                       not null
  </pre>
 
 
-# Table "public.visit_summary"
+## Table "public.visit_summary"
 <pre>
       Column                  Type                        Constraints
 
@@ -53,7 +53,7 @@ isemployee      boolean                       not null
  purpose_of_visit  character varying(100)                  not null  
 </pre>
 
-# It contains 4 rest api end points :-
+## It contains 4 rest api end points :-
 <pre>
 /employee/entry :- For making entry of employee... It checks whether input is
  valid employee id and then check entry before exit error.
@@ -63,7 +63,7 @@ isemployee      boolean                       not null
 /visitor/exit :- For making exit of visitor. It Thanking emails and sms Vistor  telling complete visitor summary.
 </pre>
 
-# For easy maintainence for the application 6 error codes are used....
+## For easy maintainence for the application 6 error codes are used....
 
 0 :- Internal Server Error ..
      Error while querying the database.
@@ -80,18 +80,20 @@ isemployee      boolean                       not null
 
 5 :- Employee is absent.
 
-# Features In The Web App
+## Features In The Web App
 
 1. Trigger the email to the host informing him of the details of the visitor.
 2. Trigger the SMS to the host informing him of the details of the visitor.
 3. Visually Interative Responsive WebSite
 4. Time Stamping DataBase
 
-# Scope for future development :-
+
+## Scope for future development :-
 
 1. Implementing Trie Data Structure to show the details of all employee in /visitor/entry page.
 2. Adding Adhar card feature to fetch the details of visitor so to increase the visitor's comfort.
 3. Use of RFID Card at gates to make system more reliable and accessible/
+
 
 Thank you Innovacer for giving me such a good project . I have learned a lot while completing it. 
 Some things I learned are  Postgresql,es6 async await features,database management and little bit of 
