@@ -109,6 +109,8 @@ For More Images - https://github.com/onbitSyn/entry_management_web_app/tree/mast
 3. Use of RFID Card at gates to make system more reliable and accessible/
 
 
-Thank you Innovacer for giving me such a good project . I have learned a lot while completing it. 
-Some things I learned are  Postgresql,es6 async await features,database management and little bit of 
-jquery,nodejs,express.
+### Thank you Innovacer for giving me such a good project . 
+I have learned a lot while completing it. 
+
+Some things I learned are  Postgresql, es6 async await features, database management and little bit of 
+jquery, nodejs, express .
